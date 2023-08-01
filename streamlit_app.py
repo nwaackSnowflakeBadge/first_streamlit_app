@@ -47,4 +47,4 @@ streamlit.dataframe(my_data_row)
 #my_cur.execute("insert into fruit_load_list values ('" + add_a_fruit + "')")
 #streamlit.write('Thanks for adding ', add_a_fruit)
 
-my_cur.insert into fruit_load_list values('from streamlit');
+my_cur.execute("insert into fruit_load_list values('from streamlit'))"
